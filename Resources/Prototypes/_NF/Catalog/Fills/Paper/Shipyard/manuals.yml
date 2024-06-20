@@ -19,3 +19,54 @@
     openOnActivation: true
     guides:
     - ShipyardPioneer
+
+- type: entity
+  id: PaperGazpachoInfo
+  name: scribbled gazpacho manual
+  suffix: MappedPaper
+  parent: Paper
+  components:
+  - type: Paper
+      stampState: paper_stamp-ce
+      stampedBy:
+      - stampedBorderless: False
+        stampedColor: '#C69B17FF'
+        stampedName: stamp-component-stamped-name-ce
+      - stampedBorderless: False
+        stampedColor: '#00BE00FF'
+        stampedName: stamp-component-stamped-name-approved
+      content: >2
+
+                         [color=#daa520][bold][head=1]Imava Industries LLC. [/bold][/head][/color]
+                           [head=3]Corporate Special Services Division[/head]
+
+        [bold]Form 203b
+
+        Ship Operation Manual[/bold]
+
+        ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
+
+        [bold]Vessle:[/bold] II Gazpacho
+
+        [bold]Serial #:[/bold] II-25230308-73024-G
+
+        ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
+
+          Congratulations on the purchase of your new expeditionary vessel. To ensure proper operation and avoid damages, injuries or a loss of productivity please take the time to go through the startup procedure for this vessel. As a ship that is primarily a lightly crewed planetary gas miner, there will be some extra steps required to render your vessel fully operational.
+
+        ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
+
+
+        [head=2] Operational Hazards [/head]
+
+          [head=3]Gas Extraction Chamber[/head] - The Gas Extractor will contain volatile gasses over the course of operation. Do not under any circumstances mix your air with the extract mix.
+
+        ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
+
+
+        [head=3]Pre-Flight Checklist:[/head]
+          ◗ Ensure the generator is running, and filled with AME Fuel. If needed, there are HV ports at the Fore and Starboard sides of the ship for a solars expansion.
+          ◗ Configure the air alarms from within the atmos observation area. The starboard chamber leads to breathable air tanks, the port side chamber is to be used for volatile gases.
+          ◗ The atmosphere in the living quarters may require manual refilling after several hours of continuous use. This can be done using the filled cans on the exterior platform.
+
+        ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
