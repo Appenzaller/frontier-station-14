@@ -3679,12 +3679,6 @@ entities:
     - type: Transform
       pos: 7.4221234,-4.1171803
       parent: 1
-    - type: Forensics
-      residues: []
-      dnas: []
-      fibers: []
-      fingerprints:
-      - A0170BA45053D0670BD597FCBDDF0DBD
 - proto: GasOutletInjector
   entities:
   - uid: 640
@@ -4741,88 +4735,13 @@ entities:
       rot: 1.5707963267948966 rad
       pos: -6.5,3.5
       parent: 1
-- proto: Paper
+- proto: PaperGazpachoInfo
   entities:
   - uid: 520
     components:
     - type: Transform
       pos: -3.5805511,5.135253
       parent: 1
-  - uid: 638
-    components:
-    - type: Transform
-      pos: -0.2907768,-1.603894
-      parent: 1
-    - type: Paper
-      stampState: paper_stamp-ce
-      stampedBy:
-      - stampedBorderless: False
-        stampedColor: '#C69B17FF'
-        stampedName: stamp-component-stamped-name-ce
-      - stampedBorderless: False
-        stampedColor: '#00BE00FF'
-        stampedName: stamp-component-stamped-name-approved
-      content: >2
-
-                         [color=#daa520][bold][head=1]Imava Industries LLC. [/bold][/head][/color]
-                           [head=3]Corporate Special Services Division[/head]
-
-        [bold]Form 203b
-
-        Ship Operation Manual[/bold]
-
-        ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
-
-        [bold]Vessle:[/bold] II Gazpacho
-
-        [bold]Serial #:[/bold] II-25230308-73024-G
-
-        ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
-
-          Congratulations on the purchase of your new expeditionary vessel. To ensure proper operation and avoid damages, injuries or a loss of productivity please take the time to go through the startup procedure for this vessel. As a ship that is primarily a lightly crewed planetary gas miner, there will be some extra steps required to render your vessel fully operational.
-
-        ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
-
-
-        [head=2] Operational Hazards [/head]
-
-          [head=3]Gas Extraction Chamber[/head] - The Gas Extractor will contain volatile gasses over the course of operation. Do not under any circumstances mix your air with the extract mix.
-
-        ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
-
-
-        [head=3]Pre-Flight Checklist:[/head]
-          ◗ Ensure the generator is running, and filled with AME Fuel. If needed, there are HV ports at the Fore and Starboard sides of the ship for a solars expansion.
-          ◗ Configure the air alarms from within the atmos observation area. The starboard chamber leads to breathable air tanks, the port side chamber is to be used for volatile gases.
-          ◗ The atmosphere in the living quarters may require manual refilling after several hours of continuous use. This can be done using the filled cans on the exterior platform.
-
-        ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
-
-
-        [head=3]General advice:[/head]
-
-          ◗ While considered "technically safe", advise all crew against being on the exterior walkways before commencing FTL-procedures. 
-
-          ◗ In the event of cataclysmic hellfires, or other undesirable conditions in one or both of the atmospheric holding chambers, please use the provdided remotes to vent out all gases and safely reset the environment for future use.
-
-          ◗ While tap water is available, it is advised that for reasons of cleanliness and morale all crew drink a beverage known as 'Grog' instead.
-
-          ◗ In case of emergencies or maintenance the shutters located in the living area and medbay can be used to access the thrusters from the interior of the ship. 
-
-          ◗ Do not under any circumstances eat any pills found aboard the vessle.
-        ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
-
-
-        By purchasing this ship you have signed an NDA with Imava Industries and agree to the following conditions:
-
-          ◗ [bolditalic]II LLC. can not be held responsible for any malfunctions, damages or fines caused by operator action or ship customization.[/bolditalic]
-          ◗ [bolditalic]II LLC. is not liable for any injuries or deaths resulting from crew incompetence.[/bolditalic
-    - type: Forensics
-      residues: []
-      dnas: []
-      fibers: []
-      fingerprints:
-      - 670FB1B1B92C9A5E8797A1F1234A942C
 - proto: PaperCargoInvoice
   entities:
   - uid: 517
